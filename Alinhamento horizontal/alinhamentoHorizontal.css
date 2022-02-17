@@ -1,0 +1,42 @@
+body{
+    font-size:1.2rem;
+
+}
+
+#quadrado{
+    background-color:blue;
+    width:50px;
+    height:50px;
+    margin-left:auto;
+    /* 
+        Para modificar o posicionamento em uma Div
+      Exemplo:margin:auto; que é pra equilibrar em todos os lados mantendo no meio nesse caso, ele não serve para imagem
+      Exemplo:margin-left:auto; é para equilibrar o elemento a esquerda
+      da mesma forma pode ser feito para alinhamento a direita
+      
+    */
+}
+
+img{
+    margin:auto;
+    display:block;
+    /* 
+        PARA MODIFICAR O POSICIONAMENTO DE UMA IMAGEM 
+        A primeira coisa a se fazer é mudar o display dela. Colocando pra display block, só irá funcioanr com esse display
+        Depois de mudar o display ai sim irá funcioanr o margin para mudar a imagem de posição
+    */
+}
+
+/*  para posiconar elementos horizontalmente 
+    também é possíve caso seja feito a imagem dentro 
+    de um outro elemento por exemplo UMA DIV 
+*/
+
+#container{
+    text-align:left;
+}
+
+.segundoexemplo{
+    display:inline-block;
+
+}
