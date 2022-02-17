@@ -1,0 +1,85 @@
+.quadro{
+    border:1px solid gray;
+    width:500px;
+    height:400px;
+}
+
+.quadrado{
+
+    /* Pode ser usado para colocar os elementos alinhados todos lado a lado
+        Exemplo:display:inline-block;  
+    */
+    width:100px;
+    height:100px;
+}
+
+.quadrado-red{
+    background-color:red;
+}
+
+.quadrado-blue{
+    /* A posição relative não altera a posição de nenhum outro elemento somente do elemento que está sendo mexido
+    DIFERENTE DA MARGIN
+    que empurra o elemento e os outros juntos  */
+    position:relative;
+    left:20px;
+    top:20px;
+    background-color:blue;
+
+     /* 
+                    STATIC
+        Há algumas possibilidades de posicionamento que pode ser usado 
+        Como PADRÃO é utilizado o position STATIC
+        Ele vai fazer com que todo elemento se encaixe em baixo do outro
+        elemento se for display block ou do lado do elemento se for
+        inline ou inline block
+     
+        Todos os outros posicionamentos vão ter diferenças em realação ao STATIC
+        O position RELATIVE
+        ele vai ser relativo ao STATIC que é o posicionamento padrão
+
+        Exemplo:position:relative;
+            Apartir do momento que colocar o position relative por exempo pode ser
+            usado outras propriedades como o left
+            Exemplo: left:20px;
+
+        */   
+}
+
+.quadrado-green{
+    background-color:green;
+}
+
+
+
+
+
+.exemplo2{
+    border:1px solid gray;
+    width:500px;
+    height:400px;
+}
+
+.quadrado2{
+
+    width:100px;
+    height:100px;
+}
+
+.quadrado2-red{
+    background-color:red;
+}
+
+.quadrado2-blue{
+    /* A MARGIN empurra o elemento e os outros juntos, tem uma margem separando o azul do vermelho só que o verde também vai pra baixo junto com o azul
+    pois a margem é como se estivesse colocando uma margem no espaçamento
+   */
+    margin-left:20px;
+    margin-top:20px;
+    background-color:blue;
+}
+
+.quadrado2-green{
+    background-color:green;
+}
+
