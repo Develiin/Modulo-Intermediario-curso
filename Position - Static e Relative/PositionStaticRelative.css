@@ -83,3 +83,36 @@
     background-color:green;
 }
 
+
+.exemplo3{
+    border:1px solid gray;
+    width:800px;
+    height:400px;
+    position:relative;
+}
+
+.quadrado3{
+
+    width:100px;
+    height:100px;
+}
+
+.quadrado3-red{
+    background-color:red;
+}
+
+.quadrado3-blue{
+    /* 
+       Estará sempre em posição absoluta independente de quando for o scroll na página 
+    */
+    right:0px;
+    position:absolute;
+    background-color:blue;
+    bottom:0px;
+}
+
+.quadrado3-green{
+    background-color:green;
+}
+
+
