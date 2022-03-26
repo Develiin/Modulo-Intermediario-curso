@@ -1,0 +1,47 @@
+body{
+    font-size: 1.2rem;
+}
+
+.card{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 200px;
+    border: 2px solid green;
+    text-align: center;
+}
+
+.card2{
+    clear: left;  /* serve para que ele saia do lado e va para a linha de baixo  */
+    border: 2px solid green;
+    float: left;  
+    /* Para ele não ocupar a tela toda. 
+    PODERIA SER USADO O display inline-block, mas o CLEAR não funcionaria  */
+    
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+
+}
+
+.nome{
+    background-color: red;
+}
+
+.c1{
+
+    line-height: 200px;
+}
+
+.c2{
+
+    position: absolute;
+    top:50%;   /*  Referente ao pai do C2 no caso o CARD */
+    left:50%;
+    transform: translate(-50%,-50%);
+    /* Referente ao conteúdo de fato */
+    
+}
+
