@@ -1,0 +1,41 @@
+.quadro{
+    border:1px solid gray;
+    width:500px;
+    height:4000px;
+    position: relative;
+}
+
+.quadrado{
+
+    width:100px;
+    height:100px;
+}
+
+.quadrado-red{
+    background-color:red;
+}
+
+.quadrado-blue{
+    
+
+    position:fixed;
+     /* quando se usa o posicionamento fixed ele ficará posicionado em relação a viewport 
+        que é o que se pode ver na tela.
+        podendo ficar parecido com o tipo absoluto quando
+        não coloca o pai dele como tipo static
+     */
+
+     /* 
+       O POSICIONAMENTO FIXO MANTEM O ELEMENTO DE FORMA FIXA EM RELAÇÃO A 
+       NOSSA (VIEWPORT) JANELA permitindo rolar o elemento e o azul se manter sempre no mesmo lugar 
+     */
+    right: 0px;
+    bottom:500px;
+    background-color:blue;
+
+
+}
+
+.quadrado-green{
+    background-color:green;
+}
